@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="16dp"
+    android:layout_height="match_parent"
+    tools:context="com.example.rebcesp.sqlitehelper51.DatosCiudad">
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+
+            android:id="@+id/nombreCiudad"
+            tools:text="ciudad "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="provicincia"
+            android:id="@+id/nombreProvincia"/>
+
+        <EditText
+            tools:text="numero habitantes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/numeroHabitantes"/>
+
+
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnGuardar"
+        android:text="Guardar"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/linearLayout2"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content" />
+    <Button
+        android:text="ir atras"
+        android:id="@+id/btnVolver"
+        android:layout_below="@+id/linearLayout2"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content" />
+    <Button
+        android:text="Eliminar"
+        android:id="@+id/btnEliminar"
+        android:layout_below="@id/linearLayout2"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"/>
+
+
+
+</RelativeLayout>

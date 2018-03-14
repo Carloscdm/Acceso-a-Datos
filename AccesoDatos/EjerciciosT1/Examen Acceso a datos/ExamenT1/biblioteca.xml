@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<biblioteca>
+    <libro>
+        <titulo>El señor de los anillos</titulo>
+        <autor>
+            <nombreAutor>J.R.R.Tolkien</nombreAutor>
+            <nacionalidad>Sudafricano</nacionalidad>
+        </autor>
+        <numPaginas>1368</numPaginas>
+        <anioPublicacion>1978</anioPublicacion>
+    </libro>
+    <libro>
+        <titulo>El clan del oso cavernario</titulo>
+        <autor>
+            <nombreAutor>Jean Marie Auel</nombreAutor>
+            <nacionalidad>Estadounidense</nacionalidad>
+        </autor>
+        <numPaginas>564</numPaginas>
+        <anioPublicacion>1980</anioPublicacion>
+    </libro>
+    <libro>
+        <titulo>El ocho</titulo>
+        <autor>
+            <nombreAutor>Katherine Neville</nombreAutor>
+            <nacionalidad>Estadounidense</nacionalidad>
+        </autor>
+        <numPaginas>624</numPaginas>
+        <anioPublicacion>1988</anioPublicacion>
+    </libro>
+</biblioteca>
